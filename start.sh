@@ -1,0 +1,13 @@
+uvicorn.run(
+        "api:app",
+        host="0.0.0.0",
+        port=PORT,
+        workers=WORKERS,
+        loop="auto",
+        http="auto",
+        log_level="warning",
+        access_log=False,
+        timeout_keep_alive=30,
+        limit_concurrency=5000,
+        limit_max_requests=100_000,
+        backlog=4096,
