@@ -1,1 +1,4 @@
-Uvicorn fastapi orjson curl_cffi
+Uvicorn
+fastapi
+orjson
+curl_cffi
